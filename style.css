@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    height: 60vh;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
@@ -89,11 +88,13 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    height: 300px;
-    margin: 40px 0px;
+    margin: 40px 0px 0px 0px;
     font-size: 20px;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
