@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taixa Metabolica Basal
+    <title>Taxa Metabolica Basal
     </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header><h1>Taixa Metabolica Basal</h1></header>
+        <header><h1>Taxa Metabolica Basal</h1></header>
         <main>
             <form>
                 <select name="genero" id="sexo">
@@ -20,16 +20,17 @@
                 <input type="number" id="altura" placeholder="Digite sua altura: " >
                 <input type="number" id="peso" placeholder="Digite seu peso: ">
                 <input type="number" id="idade" placeholder="Digite sua idade: ">
-                <input onclick="enviar()" type=" submit" value="Calcular" id="enviar">
-                    <p>TMB = <p id="tmb"></p> </p>
-                    <p>Pouca Atividade Fisica = <p id="pouca"></p></p>
-                    <p>Atividade Fisica Moderada = <p id="moderada"></p></p>
-                    <p>Atividade fisica Intensa = <p id="intensa"></p></p>
+                <input type="submit" value="Calcular" id="enviar">
+                    <p>TMB = <span id="tmb"></span> </p>
+                    <p>Pouca Atividade Fisica = <span id="pouca"></span></p>
+                    <p>Atividade Fisica Moderada = <span id="moderada"></span></p>
+                    <p>Atividade fisica Intensa = <span id="intensa"></span></p>
+                    <p id="aviso">LEMBRANDO QUE SÃO RPOXIMADAMENTE O SEU GASTO CALORICO, PODE HAVER UMA VARIAÇÃO</p>
             
             </form>
 
         </main>
-
+            <footer>Criado por G0RD3US</footer>
 
 
 
